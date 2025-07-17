@@ -117,7 +117,7 @@ dependencies {
     implementation(libs.androidx.emoji.views.helper)
     implementation(libs.androidx.emoji.picker)
 
-    implementation(org.chromium.net:cronet-embedded)
+    implementation("org.chromium.net:cronet-embedded:119.6045.31")
 
     testImplementation(libs.junit)
     testImplementation(libs.android.room.testing)
